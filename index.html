@@ -4,44 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dionisis Arvanitis - Cybersecurity Enthusiast</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <br>
+    <section id="about">
+        <h1 style=" color: #BBFF35">Hello, my name is Dionisis</h1>
+        <br>
+        <p>I am a Computer Science student at AUEB, passionate about cybersecurity, penetration testing, cryptography and programming in general.</p>
+        <p>In my spare time i either do hackthebox, codewars or i am writing python scripts.</p>
+        <p>I currently study low level programming (for microcontrollers and rootkit development) and reverse engineering (tools likes IDA and ollydbg).</p>
+        <p>Feel free to check my portfolio and get in touch if you are interested in collaborating on a project or a ctf.</p>
+    </section>
+    <br>
+    <p class="contact-info">
+        Find me on
+        <a href="https://github.com/Dionisis-Arvanitis"> GitHub,</a>
+        <a href="https://www.codewars.com/users/DOG%20OF%20THE%20HILL"> Codewars,</a>
+        <a href="https://app.hackthebox.com/profile/369917"> Hack The Box,</a>
+        <a href="https://www.linkedin.com/in/dionisis-arvanitis-7a9b62297/">LinkedIn</a>
+    </p>
+    <hr>
+    <br>
+    <h2 id="Skills">Skills</h2>
+        <p style="text-align: center">
+            Some of the languages, tools and operating systems that i am familiar with:
+        </p>
 
-    <div id="particles-js">
-
-        <div id="about">
-            <h1 style=" color: #BBFF35">Hello, my name is Dionisis</h1>
-            <br>
-            <p>I am a Computer Science student at AUEB, passionate about cybersecurity, penetration testing, cryptography and programming in general.</p>
-            <p>In my spare time i either do hackthebox, codewars or i am writing python scripts.</p>
-            <p>I currently study low level programming (for microcontrollers and rootkit development) and reverse engineering (tools likes IDA and ollydbg).</p>
-            <p>Feel free to check my portfolio and get in touch if you are interested in collaborating on a project or a ctf.</p>
-        </div>
-
-        <div id="info">
-            <p>
-                Find me on:
-            </p>
-            <li><a href="https://github.com/Dionisis-Arvanitis"> GitHub</a></li>
-            <li><a href="https://www.codewars.com/users/DOG%20OF%20THE%20HILL"> Codewars</a></li>
-            <li><a href="https://app.hackthebox.com/profile/369917"> Hack The Box</a></li>
-            <li><a href="https://www.linkedin.com/in/dionisis-arvanitis-7a9b62297/">LinkedIn</a></li>
-            <br>
-        </div>
-
-        <div id="skills-info">
-            <h2 >Skills</h2>
-            <p style="text-align: center">
-                Some of the languages, tools and operating systems that i am familiar with:
-            </p>
-        </div>
-        
-
-
-
-
-
+    <div class="skills">
         <div id="languages" class="skill-section">
             <h3>Languages</h3>
             <ul>
@@ -54,8 +44,6 @@
                 <li>JavaScript</li>
             </ul>
         </div>
-
-
         <div id="tools" class="skill-section">
             <h3>Tools</h3>
             <ul>
@@ -70,8 +58,6 @@
                 <li>Snort</li>
             </ul>
         </div>
-
-
         <div id="os" class="skill-section">
             <h3>Operating systems</h3>
             <ul>
@@ -84,62 +70,45 @@
                 <li>Windows 10</li>
             </ul>
         </div>
-
-        <div id="projects-info">
-            <h2 >Projects</h2>
-            <p style="text-align: center">
-                Feel free to check out some of my Uni projects:
-            </p>
-        </div>
-
-
-        
-        <div id="ai" class="project-item">
-            <h3>Artificial Inteligence:</h3>
-            <h3>N-Queens</h3>
-            <p>N-queens generates a solution for placing n queens on a board (n * n) with the use of Genetic algorithm.</p>
-        </div>
-
-        <div id="cpp" class="project-item">
-            <h3>C++:</h3>
-            <h3> Space Invaders Clone</h3>
-            <p>A space invaders clone developed in C++ with Simple Game Graphics Library.</p>
-        </div>
-
-        <div id="operating-systems" class="project-item">
-            <h3>Operating Systems:</h3>
-            <h3> Pizzaria Simulator</h3>
-            <p>A pizzaria simulation in C. Each order is a new thread. </p>
-        </div>
-
-        <div id="compilers" class="project-item">
-            <h3>Compilers:</h3>
-            <h3>minipython</h3>
-            <p>Grammar for Sablecc (compiler generator)</p>
-        </div>
-
-
-        <div id="rights">
-            <p >© Copyright 2023 Dionisis Arvanitis. All rights reserved.</p>
-        </div>
-
-
-
-
-
     </div>
-
-
-
-
-
-    <script src=" https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
-
-    <script>particlesJS.load('particles-js', 'assets/particles.json', function(){
-        console.log('particles.json loaded...')
-    });</script>
-
-
-    
+    <hr>
+    <br>
+    <h2 id="Projects">Projects</h2><p style="text-align: center">
+        Feel free to check out some of my Uni projects:
+    </p>
+    <div class="project-container">
+        <div onclick="window.open('https://github.com/Dionisis-Arvanitis/n-queens','mywindow');" class="project-item">
+            <div class="project-text">
+                <h3>Artificial Inteligence:</h3>
+                <h3>N-Queens</h3>
+                <p>N-queens generates a solution for placing n queens on a board (n * n) with the use of Genetic algorithm.</p>
+            </div>
+        </div>
+        <div onclick="window.open('https://github.com/Dionisis-Arvanitis/Space_Invaderes_Clone','mywindow');" class="project-item">
+            <div class="project-text">
+                <h3>C++:</h3>
+                <h3> Space Invaders Clone</h3>
+                <p>A space invaders clone developed in C++ with Simple Game Graphics Library.</p>
+            </div>
+        </div>
+        <div onclick="window.open('https://github.com/Dionisis-Arvanitis/pizzaria-simulation','mywindow');" class="project-item">
+            <div class="project-text">
+                <h3>Operating Systems:</h3>
+                <h3> Pizzaria Simulator</h3>
+                <p>A pizzaria simulation in C. Each order is a new thread. </p>
+            </div>
+        </div>
+        <div onclick="window.open('https://github.com/Dionisis-Arvanitis/minipython','mywindow');" class="project-item">
+            <div class="project-text">
+                <h3>Compilers:</h3>
+                <h3>minipython</h3>
+                <p>Grammar for Sablecc (compiler generator)</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="cp-text" style=" color: white; text-align: center; padding:1%; font-size: 75%;" >
+        © Copyright 2023 Dionisis Arvanitis. All rights reserved.
+    </p>
 </body>
 </html>
