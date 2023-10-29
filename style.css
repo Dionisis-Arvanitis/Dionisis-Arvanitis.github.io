@@ -5,7 +5,14 @@ body, h1, h2, ul, li {
     padding: 0;
     list-style: none;
     text-decoration: none;
-    height: 1300;
+  }
+
+
+  html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
   }
 
   h1 , h2, a{
@@ -77,19 +84,6 @@ body {
     position: absolute;
  }
 
- /* #skills{
-    position: absolute; 
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
-    width: 80%;
-    top: 550px;
-    opacity: 0.9;
-    
-    display: flex;
- } */
-
 
 #languages{
     position: absolute; 
@@ -125,8 +119,6 @@ body {
     
     top: 40%;
     height: 15%;
-    /* margin: 10px; */
-    /* padding: 10px; */
     text-align: center;
     box-sizing: border-box;
     border-radius: 10px;
@@ -196,56 +188,6 @@ body {
   .project-item:hover {
     transform: scale(1.05);
   }
-  
-  /* .project-item a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .project-item a:hover {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .project-item p{
-    font-size: 14px;
-    padding-left: 5px;
-    padding-top: 5px;
-  }
-  
-  .project-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    max-width: 210px;
-    max-height: 250px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    margin: auto;
-  }
-  
-  .project-item h3 {
-      color:#BBFF35;
-      margin-top: 10px;
-      padding-left: 5px;
-  }
-
-
-  .skill-section h3 {
-    font-size: 15px;
-    color:#BBFF35;
-    margin-top: 0; 
-  }
-  
-  .skill-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skill-section li {
-    font-size: 15px;
-    margin-left: 0;
-  } */
 
   #rights{
     left: 0; 
@@ -259,13 +201,9 @@ body {
   }
 
   .skill-section h3 {
-    font-size: 15px;
     color:#BBFF35;
-    margin-top: 0; 
   }
 
   .project-item h3 {
     color:#BBFF35;
-    margin-top: 10px;
-    padding-left: 5px;
 }
