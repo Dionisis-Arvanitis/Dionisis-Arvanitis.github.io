@@ -39,6 +39,11 @@ body {
     background:#8585ad;
   }
 
+
+
+
+
+
  #about{
     
     left: 0; 
@@ -58,34 +63,59 @@ body {
  }
 
 
+
+
+
+
  #info{
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 20%; /* Need a specific value to work */
-    top: 25%;
+    width: 15%; /* Need a specific value to work */
+    top: 30%;
     background-color: #3d3d5c;
     opacity: 0.9;
     border: #ccc 2px solid;
     position: absolute;
     border-radius: 10px;
-    box-sizing: border-box;
  }
 
- #skills-info{ 
+
+
+
+ .skill-section {
+    
+  top: 50%;
+  /* height: 15%; */
+  text-align: center;
+  border-radius: 10px;
+  background-color: #3d3d5c;
+  border: #ccc 2px solid;
+  width: 20%;
+  opacity: 0.9;
+
+}
+
+
+
+ #skills-info{
+
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
     width: 25%; /* Need a specific value to work */
-    top: 39%;
+    top: 42%;
     opacity: 0.9;
     position: absolute;
  }
 
 
+
+
 #languages{
+    
     position: absolute; 
     left: 15%; 
     right: 0; 
@@ -111,18 +141,6 @@ body {
     box-sizing: border-box;
 }
 
-.skill-section {
-    
-    top: 47%;
-    height: 15%;
-    text-align: center;
-    border-radius: 10px;
-    background-color: #3d3d5c;
-    border: #ccc 2px solid;
-    width: 20%;
-    opacity: 0.9;
-
-}
 
 
 #projects-info{ 
@@ -131,7 +149,7 @@ body {
     margin-left: auto; 
     margin-right: auto; 
     width: 16%; /* Need a specific value to work */
-    top: 65%;
+    top: 70%;
     opacity: 0.9;
     position: absolute;
     box-sizing: border-box;
@@ -181,8 +199,8 @@ body {
 
 
   .project-item {
-    top: 75%;
-    height: 15%;
+    top: 80%;
+    /* height: 15%; */
     width: 15%;
     text-align: center;
     box-sizing: border-box;
