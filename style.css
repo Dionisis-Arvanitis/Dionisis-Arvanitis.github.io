@@ -1,6 +1,9 @@
-/* ---- reset ---- */
 
-body, h1, h2, ul, li {
+
+@media all and (min-width:951px) {
+  /* ---- reset ---- */
+
+  body, h1, h2, ul, li {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -18,20 +21,20 @@ body, h1, h2, ul, li {
   h1 , h2, a{
     color: #f8f8f8;
   }
-  
+
   a:hover {
     text-decoration: underline;
   }
 
-body {
+  body {
     font:normal 75% Arial, Helvetica, sans-serif;
     text-align: center;
     color: #f8f8f8;
   }
 
-  
+
   /* ---- particles.js container ---- */
-  
+
   #particles-js {
     position: absolute;
     width: 100%;
@@ -39,7 +42,7 @@ body {
     background:#8585ad;
   }
 
- #about{
+  #about{
     
     left: 0; 
     right: 0; 
@@ -56,9 +59,9 @@ body {
     text-align: left;
     padding: 1em;
     font-size: 125%;
- }
+  }
 
- #info{
+  #info{
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -70,17 +73,17 @@ body {
     border: #ccc 2px solid;
     position: absolute;
     border-radius: 10px;
- }
+  }
 
- #info p{
+  #info p{
   font-size: 135%;
- }
+  }
 
- #info li{
+  #info li{
   font-size: 125%;
- }
+  }
 
- .skill-section {
+  .skill-section {
     
   top: 50%;
   text-align: center;
@@ -90,17 +93,17 @@ body {
   width: 20%;
   opacity: 0.8;
   padding: 1%;
-}
+  }
 
-.skill-section h3 {
+  .skill-section h3 {
   font-size: 150%;
-}
+  }
 
-.skill-section li {
+  .skill-section li {
   font-size: 130%;
-}
+  }
 
- #skills-info{
+  #skills-info{
 
     left: 0; 
     right: 0; 
@@ -109,9 +112,9 @@ body {
     width: 25%;
     top: 42%;
     position: absolute;
- }
+  }
 
-#languages{
+  #languages{
     
     position: absolute; 
     left: 15%; 
@@ -119,37 +122,37 @@ body {
     margin-right: auto; 
     box-sizing: border-box;
 
-}
+  }
 
-#tools{
+  #tools{
     position: absolute; 
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
     box-sizing: border-box;
-}
+  }
 
-#os{
+  #os{
     position: absolute; 
     left: 0; 
     right: 15%; 
     margin-left: auto;  
     box-sizing: border-box;
-}
+  }
 
 
-#projects-info{ 
+  #projects-info{ 
     left: 0; 
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
     width: 16%;
-    top: 75%;
+    top: 73%;
     position: absolute;
- }
+  }
 
- #ai {
+  #ai {
     left: 10%; 
     right: 0; 
     margin-right: auto; 
@@ -164,23 +167,23 @@ body {
     
   }
 
-#operating-systems{
+  #operating-systems{
     left: 50%; 
     right: 0; 
     margin-right: auto; 
     position: absolute;
     
-}
+  }
 
-#compilers{
+  #compilers{
     left: 70%; 
     right: 0; 
     margin-right: auto; 
     position: absolute;
     
-}
+  }
 
-.project-item {
+  .project-item {
   top: 80%;
   width: 15%;
   text-align: center;
@@ -190,13 +193,13 @@ body {
   line-height: 1em;
   padding: 1em;
   opacity: 0.8;
-}
+  }
 
-.project-item:hover {
+  .project-item:hover {
   transform: scale(1.05);
-}
+  }
 
-#rights{
+  #rights{
   left: 0; 
   right: 0; 
   margin-left: auto; 
@@ -205,22 +208,21 @@ body {
   top: 97%;
   opacity: 0.9;
   position: absolute;
-}
+  }
 
-.skill-section h3 {
+  .skill-section h3 {
   color:#BBFF35;
-}
+  }
 
-.project-item h3 {
+  .project-item h3 {
   color:#BBFF35;
   font-size: 150%;
-}
+  }
 
-.project-item p {
+  .project-item p {
   font-size: 125%;
+  }
 }
-
-
 
 @media all and (min-width:0px) and (max-width: 950px) {
 
