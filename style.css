@@ -114,6 +114,10 @@
     position: absolute;
   }
 
+  #skills-info p{
+    font-size: 120%;
+  }
+  
   #languages{
     
     position: absolute; 
