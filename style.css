@@ -1,6 +1,6 @@
 
 
-@media all and (min-width:951px) {
+
   /* ---- reset ---- */
 
   body, h1, h2, ul, li {
@@ -226,7 +226,7 @@
   .project-item p {
   font-size: 125%;
   }
-}
+
 
 @media all and (min-width:0px) and (max-width: 950px) {
 
