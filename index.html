@@ -131,12 +131,31 @@
 
 
 
-
     <script src=" https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
 
-    <script>particlesJS.load('particles-js', 'assets/particles.json', function(){
+    <script>
+
+    function getcss(cssfile){
+
+    loadcss = document.createElement('link')
+
+    loadcss.setAttribute("rel", "stylesheet")
+
+    loadcss.setAttribute("type", "text/css")
+
+    loadcss.setAttribute("href", cssfile)
+
+    document.getElementsByTagName("head")[0].appendChild(loadcss)
+
+    }
+
+    if (screen.width > 1000) {
+        particlesJS.load('particles-js', 'assets/particles.json', function(){
         console.log('particles.json loaded...')
-    });</script>
+    });
+    }
+
+</script>
 
 
     

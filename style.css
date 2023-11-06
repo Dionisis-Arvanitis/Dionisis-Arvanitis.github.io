@@ -45,7 +45,7 @@ body {
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 65%; /* Need a specific value to work */
+    width: 65%;
     box-sizing: border-box;
     top: 3%;
     background-color: #3d3d5c;
@@ -55,6 +55,7 @@ body {
     border-radius: 10px;
     text-align: left;
     padding: 1em;
+    font-size: 125%;
  }
 
  #info{
@@ -62,7 +63,7 @@ body {
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 15%; /* Need a specific value to work */
+    width: 15%;
     top: 30%;
     background-color: #3d3d5c;
     opacity: 0.9;
@@ -71,17 +72,24 @@ body {
     border-radius: 10px;
  }
 
+ #info p{
+  font-size: 135%;
+ }
+
+ #info li{
+  font-size: 125%;
+ }
+
  .skill-section {
     
   top: 50%;
-  /* height: 15%; */
   text-align: center;
   border-radius: 10px;
   background-color: #3d3d5c;
   border: #ccc 2px solid;
   width: 20%;
   opacity: 0.8;
-
+  padding: 1%;
 }
 
 .skill-section h3 {
@@ -89,7 +97,7 @@ body {
 }
 
 .skill-section li {
-  font-size: 125%;
+  font-size: 130%;
 }
 
  #skills-info{
@@ -98,7 +106,7 @@ body {
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 25%; /* Need a specific value to work */
+    width: 25%;
     top: 42%;
     position: absolute;
  }
@@ -136,7 +144,7 @@ body {
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 16%; /* Need a specific value to work */
+    width: 16%;
     top: 70%;
     position: absolute;
  }
@@ -174,10 +182,8 @@ body {
 
 .project-item {
   top: 80%;
-  /* height: 8%; */
   width: 15%;
   text-align: center;
-  /* box-sizing: border-box; */
   border-radius: 10px;
   background-color: #3d3d5c;
   border: #ccc 2px solid;
@@ -195,7 +201,7 @@ body {
   right: 0; 
   margin-left: auto; 
   margin-right: auto; 
-  width: 27%; /* Need a specific value to work */
+  width: 27%;
   top: 97%;
   opacity: 0.9;
   position: absolute;
@@ -213,3 +219,203 @@ body {
 .project-item p {
   font-size: 125%;
 }
+
+
+
+@media all and (min-width:0px) and (max-width: 950px) {
+
+  /* #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background:#8585ad;
+  } */
+
+  body {
+    background-color: #8585ad;
+  }
+
+  #about{
+    
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 65%;
+    box-sizing: border-box;
+    top: 3%;
+    background-color: #3d3d5c;
+    opacity: 0.9;
+    border: #ccc 2px solid;
+    position: absolute;
+    border-radius: 10px;
+    text-align: left;
+    padding: 1em;
+  }
+  
+  #info{
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 35%;
+    top: 60%;
+    background-color: #3d3d5c;
+    opacity: 0.9;
+    border: #ccc 2px solid;
+    position: absolute;
+    border-radius: 10px;
+ }
+
+
+ #info p{
+  font-size: 100%;
+ }
+
+ #info li{
+  font-size: 100%;
+ }
+
+ #skills-info{
+
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%;
+  top: 75%;
+  position: absolute;
+}
+
+ .skill-section {
+    
+  
+  text-align: center;
+  border-radius: 10px;
+  background-color: #3d3d5c;
+  border: #ccc 2px solid;
+  width: 40%;
+  opacity: 0.8;
+  padding: 15px;
+
+}
+
+  .skill-section h3 {
+    font-size: 150%;
+  }
+
+  .skill-section li {
+    font-size: 125%;
+  }
+
+  #languages{
+      top: 90%;
+      position: absolute; 
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto; 
+      box-sizing: border-box;
+
+  }
+
+  #tools{
+      top: 115%;
+      position: absolute; 
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto; 
+      box-sizing: border-box;
+  }
+
+  #os{
+      top: 145%;
+      position: absolute; 
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto; 
+      box-sizing: border-box;
+  }
+
+  #projects-info{ 
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto; 
+      width: 50%;
+      top: 180%;
+      position: absolute;
+  }
+
+  #ai {
+    top: 190%;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-sizing: border-box;
+    }
+
+    #cpp{
+      top: 210%;
+      position: absolute; 
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto; 
+      box-sizing: border-box;
+      
+    }
+
+  #operating-systems{
+    top: 230%;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-sizing: border-box;
+      
+  }
+
+  #compilers{
+    top: 250%;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    box-sizing: border-box;
+      
+  }
+
+  .project-item {
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #3d3d5c;
+    border: #ccc 2px solid;
+    line-height: 1em;
+    padding: 1em;
+    opacity: 0.8;
+  }
+
+  .project-item:hover {
+    transform: scale(1.05);
+  }
+
+  #rights{
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 100%;
+    top: 270%;
+    opacity: 0.9;
+    position: absolute;
+  }
+}
+
